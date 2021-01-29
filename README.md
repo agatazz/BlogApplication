@@ -1,56 +1,74 @@
-# Getting Started with Create React App
+# Blog Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplikacja BlogApp to aplikacja umożliwiająca prowadzenie własnego bloga.Jest to aplikacja posiadająca właścicowści MERN oraz CRUD. 
 
-## Available Scripts
+## Uruchomienie
 
-In the project directory, you can run:
+Aby uruchomić aplikację należy najpierw zarówno do folderu backend jak i frontend zainstalować paczki i biblioteki wymagane przez npm
 
-### `npm start`
+### Uruchomienie backendu 
+`npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`npm start`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O poprawnym działaniu backendu będzie świadczyć informacja  *DB CONNECTED*
 
-### `npm test`
+![Alt Text](https://i.ibb.co/zxXwp2j/Screenshot-11.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Uruchomienie frontendu 
+`npm install`
+`npm start`
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologie 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. React v.17.0.1
+2. Bootstrap
+3. MongoDB
+4. NodeJS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Przykłady wykorzystanych paczek i rozszerzeń
 
-### `npm run eject`
+1. body-parser: v.1.19.0
+2. cors: v.2.8.5
+3. dotenv: v.8.2.0
+4. express: v.4.17.1
+5. express-jwt: v.6.0.0
+6. jsonwebtoken: v.8.5.1
+7. mongoose: v.5.11.13
+8. morgan: v.1.10.0
+9. nodemon: v.2.0.7
+10. slugify: v.1.4.6
+11. axios: v.0.21.1
+12. react-quill: v.1.3.5
+13. react-render-html: 0.6.0
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Funkcjonalność
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Aplikacja umożliwia zalogowanie się na konto
+2. Użytkownik wylogowany może tylko oglądać dodane przez autora wpisy
+3. Zalogowany użytkowanik może przeglądać wpisy,edytować je oraz usuwać
+4. Aplikacja posiada edytor tekstu który umożlwia np.pogrubienie,podkreślenie,wypunktowanie tekstu,dodanie linka lub zmiane formatu na h1,h2 lub h3
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Wygląd aplikacji
 
-## Learn More
+### Wygląd aplikacji bez logowania
+![Alt Text](https://i.ibb.co/W6xHZ3p/Screenshot-9.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Wygląd aplikacji po zalogowaniu
+![Alt Text](https://i.ibb.co/SnvYHvx/Screenshot-1.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Wygląd wpisu po kliknięciu na tytuł
+![Alt Text](https://i.ibb.co/xfJpyWH/Screenshot-4.png)
 
-### Code Splitting
+### Wygląd tworzenia wpisu
+![Alt Text](https://i.ibb.co/cF6LLXs/Screenshot-2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Wygląd edycji wpisu
+![Alt Text](https://i.ibb.co/ngRm3n9/Screenshot-3.png)
 
-### Analyzing the Bundle Size
+## Bezpieczeństwo
+### Aplikacja wykorzystuje web tokeny oraz chronione routy w celu zabezpieczenia funkcjonalności dodawania,usuwania oraz edytowania wpisów przed niezalogowanymi użytkownikami.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
