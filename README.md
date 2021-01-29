@@ -1,6 +1,6 @@
 # Blog Application
 
-Aplikacja BlogApp to aplikacja umożliwiająca prowadzenie własnego bloga.Jest to aplikacja posiadająca właścicowści MERN oraz CRUD. 
+Aplikacja BlogApp to aplikacja umożliwiająca prowadzenie własnego bloga.Jest to aplikacja posiadająca właściwości MERN oraz CRUD. 
 
 ## Uruchomienie
 
