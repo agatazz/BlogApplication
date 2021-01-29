@@ -17,6 +17,7 @@ O poprawnym działaniu backendu będzie świadczyć informacja  *DB CONNECTED*
 
 ### Uruchomienie frontendu 
 `npm install`
+
 `npm start`
 
 
@@ -48,7 +49,7 @@ O poprawnym działaniu backendu będzie świadczyć informacja  *DB CONNECTED*
 
 1. Aplikacja umożliwia zalogowanie się na konto
 2. Użytkownik wylogowany może tylko oglądać dodane przez autora wpisy
-3. Zalogowany użytkowanik może przeglądać wpisy,edytować je oraz usuwać
+3. Zalogowany użytkowanik może przeglądać wpisy,tworzyć je,edytować oraz usuwać
 4. Aplikacja posiada edytor tekstu który umożlwia np.pogrubienie,podkreślenie,wypunktowanie tekstu,dodanie linka lub zmiane formatu na h1,h2 lub h3
 
 ## Wygląd aplikacji
