@@ -75,6 +75,6 @@ O poprawnym działaniu backendu będzie świadczyć informacja  *DB CONNECTED*
 ### Usunięcie wpisu na blogu jest poprzedzone alertem upewniającym się czy użytkownik chce wykonać dane działanie
 
 ## Struktura logiki aplikacji
-![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mongodb.com%2Fblog%2Fpost%2Fthe-modern-application-stack-part-1-introducing-the-mean-stack&psig=AOvVaw24FvljhA7DGAbBi1n7RZaK&ust=1612025640946000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODQ19DNwe4CFQAAAAAdAAAAABAJ)
+![Alt Text](https://webassets.mongodb.com/_com_assets/cms/MEAN_stack-0pdlo3qwbn.png)
 
 
