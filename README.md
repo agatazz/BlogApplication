@@ -70,5 +70,7 @@ O poprawnym działaniu backendu będzie świadczyć informacja  *DB CONNECTED*
 
 ## Bezpieczeństwo
 ### Aplikacja wykorzystuje web tokeny oraz chronione routy w celu zabezpieczenia funkcjonalności dodawania,usuwania oraz edytowania wpisów przed niezalogowanymi użytkownikami.
+### Formularze aplikacji posiadają walidacje gwarantującą wpisanie poprawnych danych
+### Usunięcie wpisu na blogu jest poprzedzone alertem upewniającym się czy użytkownik chce wykonać dane działanie
 
 
