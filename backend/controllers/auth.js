@@ -18,7 +18,7 @@ exports.login=(req,res)=>{
 
 };
 
-// exports.requireLogin=expressJwt({
+exports.requireLogin=expressJwt({
 
-//     secret: process.env.JWT_SECRET
-// });
+  secret: process.env.JWT_SECRET
+});
