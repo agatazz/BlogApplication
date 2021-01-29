@@ -23,9 +23,9 @@ O poprawnym działaniu backendu będzie świadczyć informacja  *DB CONNECTED*
 ## Technologie 
 
 1. React v.17.0.1
-2. Bootstrap
-3. MongoDB
-4. NodeJS
+2. Bootstrap v.v4.6.0
+3. MongoDB v.3.6.3
+4. NodeJS  v.14.14.22
 
 ## Przykłady wykorzystanych paczek i rozszerzeń
 
