@@ -27,6 +27,7 @@ O poprawnym działaniu backendu będzie świadczyć informacja  *DB CONNECTED*
 2. Bootstrap v.v4.6.0
 3. MongoDB v.3.6.3
 4. NodeJS  v.14.14.22
+5. Express v.4.17.1
 
 ## Przykłady wykorzystanych paczek i rozszerzeń
 
