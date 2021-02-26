@@ -46,7 +46,7 @@ O poprawnym działaniu backendu będzie świadczyć informacja  *DB CONNECTED*
 13. react-render-html: 0.6.0
 
 
-## Funkcjonalność
+## Funkcjonalności
 
 1. Aplikacja umożliwia przeglądanie opublikowanych wpisów
 2. Użytkownik zalogwany na konto ma możlwiość przeglądania, dodawania, edytowania oraz usuwania wpisów.
