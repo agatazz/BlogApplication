@@ -48,10 +48,9 @@ O poprawnym działaniu backendu będzie świadczyć informacja  *DB CONNECTED*
 
 ## Funkcjonalność
 
-1. Aplikacja umożliwia zalogowanie się na konto
-2. Użytkownik wylogowany może tylko oglądać dodane przez autora wpisy
-3. Zalogowany użytkowanik może przeglądać wpisy,tworzyć je,edytować oraz usuwać
-4. Aplikacja posiada edytor tekstu który umożlwia np.pogrubienie,podkreślenie,wypunktowanie tekstu,dodanie linka lub zmiane formatu na h1,h2 lub h3
+1. Aplikacja umożliwia przeglądanie opublikowanych wpisów
+2. Użytkownik zalogwany na konto ma możlwiość przeglądania, dodawania, edytowania oraz usuwania wpisów.
+3. Aplikacja posiada edytor tekstu który umożlwia np.pogrubienie,podkreślenie,wypunktowanie tekstu,dodanie linka lub zmiane formatu na h1,h2 lub h3
 
 ## Wygląd aplikacji
 
